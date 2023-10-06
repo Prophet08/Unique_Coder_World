@@ -19,7 +19,7 @@ public class Bubblesort {
 	{  
 		int n = array.length;  
 		int temp = 0;  
-		for(int i=0; i < n; i++) // Iterating through the array length
+		for(int i=0; i < n; i++) // Iterating through array length
 		{  System.out.println("Sort Pass Number "+(i+1)); 
 			for(int j=1; j < (n-i); j++)
 			{  
